@@ -183,7 +183,7 @@ Full Stack Developer & Freelancer
 - 🧩 Building reusable UI components & tools  
 
 🔗 Portfolio: https://www.wpdebugfix.com/  
-🔗 LinkedIn: linkedin.com/in/dev-neeraj-chaturvedi/  
+🔗 LinkedIn: https://www.linkedin.com/in/dev-neeraj-chaturvedi/  
 
 ---
 
