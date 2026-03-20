@@ -150,7 +150,7 @@ Works perfectly with:
 
 ## 🌐 Live Demo
 
-👉 View Example: **[Your Website URL Here]**
+👉 View Example: **https://www.wpdebugfix.com/simplemodal/**
 
 (Replace this with your actual demo link)
 
