@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SimpleModal Demo</title>
+</head>
+<body>
+
+  <h2>SimpleModal Demo</h2>
+
+  <!-- Button Trigger -->
+  <button data-modal-target="#demoModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal" id="demoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button class="close-x" data-modal-close>&times;</button>
+          <h3>Demo Modal</h3>
+        </div>
+
+        <div class="modal-body">
+          <p>This is a demo modal built using SimpleModal JS.</p>
+          <p>You can add long or short content here.</p>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-agree" data-agree="demoAction">Agree</button>
+          <button class="btn btn-close" data-modal-close>Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Include Modal JS -->
+  <script src="modal.js"></script>
+
+  <script>
+    // Example custom function
+    window.demoAction = function(modal) {
+      alert('Agree button clicked!');
+      SM.hide(modal);
+    };
+
+    // Example: open after 2 seconds
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        SM.show(document.querySelector('#demoModal'));
+      }, 2000);
+    });
+  </script>
+
+</body>
+</html>
